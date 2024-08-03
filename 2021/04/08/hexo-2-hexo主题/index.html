@@ -530,17 +530,17 @@
 <p><code>npm install live2d-widget-model-hibiki</code>  </p>
 <img src="http://zhangbaohpu.oss-cn-shanghai.aliyuncs.com/picture/emoji/collection/hibiki.gif" style="zoom: 50%;"></li>
 <li><p>配置_config.yml</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml">live2d:
-    enable: true
-    scriptFrom: local
-    model: 
-        use: live2d-widget-model-koharu #模型选择
-    display: 
-        position: left  #模型位置
-        width: 150       #模型宽度
-        height: 300      #模型高度
-    mobile: 
-        show: false      #是否在手机端显示<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">live2d</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">scriptFrom</span><span class="token punctuation">:</span> local
+    <span class="token key atrule">model</span><span class="token punctuation">:</span> 
+        <span class="token key atrule">use</span><span class="token punctuation">:</span> live2d<span class="token punctuation">-</span>widget<span class="token punctuation">-</span>model<span class="token punctuation">-</span>koharu <span class="token comment">#模型选择</span>
+    <span class="token key atrule">display</span><span class="token punctuation">:</span> 
+        <span class="token key atrule">position</span><span class="token punctuation">:</span> left  <span class="token comment">#模型位置</span>
+        <span class="token key atrule">width</span><span class="token punctuation">:</span> <span class="token number">150</span>       <span class="token comment">#模型宽度</span>
+        <span class="token key atrule">height</span><span class="token punctuation">:</span> <span class="token number">300</span>      <span class="token comment">#模型高度</span>
+    <span class="token key atrule">mobile</span><span class="token punctuation">:</span> 
+        <span class="token key atrule">show</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>      <span class="token comment">#是否在手机端显示</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 </ul>
 <h2 id="3-2点击字体效果"><a href="#3-2点击字体效果" class="headerlink" title="3.2点击字体效果"></a>3.2点击字体效果</h2><p>在主题的/source/js 下新建文件 click_show_text.js，在 click_show_text.js 文件中添加以下代码：</p>
 <pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> a_idx <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>

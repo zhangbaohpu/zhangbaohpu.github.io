@@ -555,12 +555,12 @@
 <ul>
 <li><p>修改hexo的配置文件_config.yml</p>
 <p>在配置文件中修改deploy参数</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"># Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://gitee.com/zhangbaohpu/zhangbaohpu.git
-  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># Deployment</span>
+<span class="token comment">## Docs: https://hexo.io/docs/one-command-deployment</span>
+<span class="token key atrule">deploy</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+  <span class="token key atrule">repo</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//gitee.com/zhangbaohpu/zhangbaohpu.git
+  <span class="token key atrule">branch</span><span class="token punctuation">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>顺便修改几个参数：</p>
 <p><code>language: zh-CN</code>：语言，默认是en，</p>
