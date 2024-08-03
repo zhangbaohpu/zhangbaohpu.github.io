@@ -14,11 +14,11 @@ https://zhangbaohpu.github.io/tags/%E6%97%A5%E5%B8%B8/
 https://zhangbaohpu.github.io/tags/%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6/
 https://zhangbaohpu.github.io/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/
 https://zhangbaohpu.github.io/tags/hexo/
-https://zhangbaohpu.github.io/tags/java/
 https://zhangbaohpu.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://zhangbaohpu.github.io/tags/linux/
+https://zhangbaohpu.github.io/tags/java/
 https://zhangbaohpu.github.io/categories/%E9%9A%8F%E8%AE%B0/
 https://zhangbaohpu.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/
 https://zhangbaohpu.github.io/categories/hexo/
-https://zhangbaohpu.github.io/categories/java/
 https://zhangbaohpu.github.io/categories/linux/
+https://zhangbaohpu.github.io/categories/java/
