@@ -814,10 +814,10 @@ AlertServer ----- alert服务<span aria-hidden="true" class="line-numbers-rows">
 </ul>
 <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><font style="color:red">1.Permission denied (publickey,gssapi-keyex,gssapi-with-mic).</font></p>
 <p>在发送秘钥时报如下错误：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/dolphinscheduler/.ssh/id_rsa.pub"
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-Permission denied (publickey,gssapi-keyex,gssapi-with-mic).<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">/usr/bin/ssh-copy-id: INFO: Source of key<span class="token punctuation">(</span>s<span class="token punctuation">)</span> to be installed: <span class="token string">"/home/dolphinscheduler/.ssh/id_rsa.pub"</span>
+/usr/bin/ssh-copy-id: INFO: attempting to log <span class="token keyword">in</span> with the new key<span class="token punctuation">(</span>s<span class="token punctuation">)</span>, to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: <span class="token number">1</span> key<span class="token punctuation">(</span>s<span class="token punctuation">)</span> remain to be installed -- <span class="token keyword">if</span> you are prompted now it is to <span class="token function">install</span> the new keys
+Permission denied <span class="token punctuation">(</span>publickey,gssapi-keyex,gssapi-with-mic<span class="token punctuation">)</span>.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>解决：</p>
 <p>每台节点，进入部署用户dolphinscheduler<br><code>sudo vim /etc/ssh/sshd_config</code><br>找到如下配置，有则修改，没有则增加</p>
